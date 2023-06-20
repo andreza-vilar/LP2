@@ -1,0 +1,50 @@
+Main
+association BEP
+---
+---
+---
+
+BEP
+composes Bordado, Compra
+---
+- bordados: Bordado[]
+- compra: Compra[]
+---
++ cadastraBordado(numeroBordado: int, numeroLinha: int, numeroColuna: int): void
++ atualizarBordado(numeroBordado: int, numeroLinha: int, numeroColuna: int, tipoDePonto: str): void
++ imprimirBordado(numeroBordado: int): str
++ listarBordados(): str
++ alterarTamanho(numeroBordado: int, numeroLinha: int, numeroColuna: int): void
++ cadastraCompra(numBordado:str): void
++ imprimirCompra(numCompra:int): str
+---
+
+
+Bordado
+---
+- numPontos: int
+- numLinha: int
+- numColuna: int
+- pontosBordados: str [][]
+
+---
++ Bordado(numLinha: int, numColuna: int)
++ getNumPontos(): int
++ getNumLinha(): int
++ getNumColuna(): int
++ cadastrarPontos(numLinha: int, numColuna: int): void
++ alterarBordado(numLinha: int, numColuna: int): void
++ toString(): str
+---
+
+
+Compra
+association Bordado
+---
+- bordado[]: str
+- precoTotal: int
+---
++ Compra(bordado: [])
++ calculaPrecoTotal(quantidadePontos: int): int
++ toString(): str
+---
