@@ -1,0 +1,72 @@
+Main
+association Prog2pedia
+---
+---
+---
+Prog2pedia
+composes Pagina
+composes Colaborador
+composes Historico
+---
+- pagina: Map<String, Pagina>
+- colaboradores: Map<String, Colaborador>
+- historico: List<Historico>
+---
+
++ Prog2pedia()
++ adicionaPagina(titulo: str, emailDoColaborador: str): void
++ edicaoDePagina(titulo: str, emailDoColaborador:str, assunto: str): void
++ exibirPagina(titulo:str):str
++ exibirPagina():str
++ adicionarTema(titulo: str, tema: str): void
++ listarPaginaTema(tema: str): str
++ novoColaborador(nome: str, emailDoColaborador: str): void
++ adicionarColaboradorEspecial(titulo: str, emailDoColaborador: str): void
++ exibirColaboradores(): str
++ adicionarHistorico(data: str, email: str, tema: str, assunto: str): void
++ listarHistorico(): void
++ exibirHistoricoEdicao(): str
+---
+
+Colaborador
+---
+- nome: str
+- email: str
+- atualizacoes: int
+---
++ Colaborador(email: str, nome: str)
++ incrementaAtualizacao(): void
++ hashCode(): int
++ equals(o:object): boolean
++ toString(): str
+---
+
+Historico
+---
+- topico: str 
+- email: str
+- data: str
+- ultimaAtualizacaoDaPagina: str
+---
++ Historico(topico: str, email:str, data: str, ultimaAtualizacaoDaPagina: str)
++ toString(): str
+---
+
+Pagina
+association Colaborador
+---
+- titulo: str
+- emailDoColaborador: str
+- assunto: str
+- colaboradores: ArrayList<Colaboradores>
+- temas: HashSet<str>
+---
++ Pagina(titulo: str, emailDoColaborador: str)
++ adicionarColaboradorEspecial(emailDoColaborador: str): void
++ editarAPagina(Colaborador: colaborador, assunto: str): void
++ listarColaboradores(): str
++ verificaTema(tema: str): boolean
++ toString(): str
++ hashCode(): int
++ equals(o:object): boolean
+---
