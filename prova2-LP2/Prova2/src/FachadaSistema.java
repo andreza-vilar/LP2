@@ -4,6 +4,7 @@ public class FachadaSistema {
     private ArrayList<Adicional> adicionais;
     private int proximoIdPlano;
     private int proximoIdAdicional;
+    
     public FachadaSistema() {
         this.planos = new ArrayList<>();
         this.adicionais = new ArrayList<>();
