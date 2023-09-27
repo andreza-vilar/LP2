@@ -24,3 +24,32 @@ Os objetivos principais desta disciplina são:
 
 Os laboratórios estão organizados em pastas individuais, cada uma correspondendo a uma atividade específica. Você encontrará o código-fonte, instruções e recursos relevantes dentro de cada pasta.
 
+
+
+
+
+# Programming Laboratory 2 and Programming 2
+
+This repository contains the labs developed as part of the Programming Laboratory 2 and Programming 2 courses. The primary goal of this course is to provide an introduction to Java programming, promote the use of an integrated development environment such as Eclipse, apply object-oriented programming (OOP) techniques and code improvement, learn debugging techniques, encourage the use of automated unit testing, and teach code documentation generation.
+
+## Objectives
+
+The main objectives of this course are as follows:
+
+1. **Learn Basic Java Programming**: Master fundamental concepts of the Java language, including syntax, control structures, data types, and string manipulation.
+
+2. **Use an Integrated Development Environment (IDE)**: Utilize an IDE such as Eclipse to efficiently develop and debug Java applications.
+
+3. **Apply Object-Oriented Programming (OOP) Techniques**: Understand and apply OOP principles like encapsulation, inheritance, polymorphism, and abstraction to create well-structured and reusable programs.
+
+4. **Enhance Code Quality**: Practice writing clean and readable code, identifying and rectifying code quality issues.
+
+5. **Learn Debugging Techniques**: Develop debugging skills to identify and resolve issues in Java programs.
+
+6. **Promote the Use of Automated Unit Testing**: Comprehend the importance of automated unit testing and learn how to write tests to verify class and method behavior.
+
+7. **Learn to Generate Code Documentation**: Utilize code documentation tools like Javadoc to create clear and readable source code documentation.
+
+## Labs
+
+The labs are organized into individual folders, each corresponding to a specific activity. You will find the source code, instructions, and relevant resources within each folder.
