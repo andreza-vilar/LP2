@@ -1,6 +1,6 @@
 # Laboratório de Programação 2 e Programação 2
 
-Este repositório contém os laboratórios desenvolvidos como parte da cadeira de Laboratório de Programação 2 e Programação 2. O principal objetivo desta disciplina é proporcionar uma introdução à programação em Java, promover o uso de um ambiente integrado de desenvolvimento como o Eclipse, aplicar técnicas de programação orientada a objetos (POO) e melhorias de código, aprender técnicas de depuração, incentivar o uso de testes automáticos de unidade e ensinar a gerar documentação de código.
+Este repositório contém os laboratórios desenvolvidos como parte da cadeira de Laboratório de Programação 2 e Programação 2. O principal objetivo desta disciplina é proporcionar uma introdução à programação em Java, aplicar técnicas de programação orientada a objetos (POO) e melhorias de código, aprender técnicas de depuração, incentivar o uso de testes automáticos de unidade e ensinar a gerar documentação de código.
 
 ## Objetivos
 
@@ -16,9 +16,7 @@ Os objetivos principais desta disciplina são:
 
 5. **Aprender Técnicas de Depuração**: Desenvolver habilidades de depuração para identificar e resolver problemas em programas Java.
 
-6. **Motivar o Uso de Testes Automáticos de Unidade**: Compreender a importância dos testes automatizados de unidade e aprender a escrever testes para verificar o comportamento das classes e métodos.
-
-7. **Aprender a Gerar Documentação de Código**: Utilizar ferramentas de documentação de código, como o Javadoc, para criar documentação clara e legível do código-fonte.
+6. **Aprender a Gerar Documentação de Código**: Utilizar ferramentas de documentação de código, como o Javadoc, para criar documentação clara e legível do código-fonte.
 
 ## Laboratórios
 
@@ -30,7 +28,7 @@ Os laboratórios estão organizados em pastas individuais, cada uma corresponden
 
 # Programming Laboratory 2 and Programming 2
 
-This repository contains the labs developed as part of the Programming Laboratory 2 and Programming 2 courses. The primary goal of this course is to provide an introduction to Java programming, promote the use of an integrated development environment such as Eclipse, apply object-oriented programming (OOP) techniques and code improvement, learn debugging techniques, encourage the use of automated unit testing, and teach code documentation generation.
+This repository contains the labs developed as part of the Programming Laboratory 2 and Programming 2 courses. The primary goal of this course is to provide an introduction to Java programming, apply object-oriented programming (OOP) techniques and code improvement, learn debugging techniques, encourage the use of automated unit testing, and teach code documentation generation.
 
 ## Objectives
 
@@ -46,9 +44,7 @@ The main objectives of this course are as follows:
 
 5. **Learn Debugging Techniques**: Develop debugging skills to identify and resolve issues in Java programs.
 
-6. **Promote the Use of Automated Unit Testing**: Comprehend the importance of automated unit testing and learn how to write tests to verify class and method behavior.
-
-7. **Learn to Generate Code Documentation**: Utilize code documentation tools like Javadoc to create clear and readable source code documentation.
+6. **Learn to Generate Code Documentation**: Utilize code documentation tools like Javadoc to create clear and readable source code documentation.
 
 ## Labs
 
